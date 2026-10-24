@@ -39,6 +39,7 @@
 # while idx < len(nums):
 #     if nums[idx] == x:
 #         print("gotta=", idx)
+#         break
 #         idx += 1
 # 
 # i = 0
@@ -56,17 +57,49 @@
 # 
 # nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 # for num in nums:
+#     if num == 9:
+#         break
 # print(num)
-#
-nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
-x = 49
-idx = 0
-
-for num in nums:
-    if num == x:
-        print("Found at index", idx)
-        break
-    idx += 1
-else:
-    print("Value not found")
+# 
+# nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = 49
+# idx = 0
+# for num in nums:
+#  if num == x:
+#    print("Found at index", idx)
+#  break
+# idx += 1
+# 
+# nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+# x = 36
+# idx = 0
+# for num in nums:
+#     if num == 64:
+#         print("found:", idx)
+#         break
+#     idx += 1
+# 
+# for el in range(9,12,2):
+#     print(el)
+# 
+# for i in range(100, 0, -1): 
+#  print(i)
+# 
+# n = int(input("enter number: "))
+# for el in range(1,1001):
+#  print(el,el * n)
+# 
+# n = int(input("enter number: "))
+# i = 0
+# while  i <= 10:
+#     print("sum is=", i * (n*(n+1)/2) )
+#     i += 2
+# 
+# Q2. Find the factorial of n (using for).
+# n = int(input("Enter n: "))
+# fact = 1 
+# for i in range(1, n + 1):
+#  fact *= i
+# print("Factorial =", fact)
+# 
 
